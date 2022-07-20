@@ -204,6 +204,7 @@
  :feature/enable-journals? false
  :ui/show-brackets? false
  :journal/page-title-format "yyyy-MM-dd"
+ :default-home {:page "/home"}
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
